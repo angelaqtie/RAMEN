@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HOME</title>
+    <link rel="stylesheet" href="./output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- HEADER -->
+
+    <header class="header pt-4 lg:pt-12 relative bg-banner bg-cover h-full bg-no-repeat text-white">
+      <div class="container">
+        <div
+          class="header__wrapper flex flex-row justify-between items-center lg:flex-row lg:text-center lg:items-center lg:gap-[15rem] lg:justify-center"
+        >
+          <div class="header__logo">
+            <img
+              class="w-[5rem]"
+              src="../ramen_img/michiRamenLogo.png"
+              alt=""
+            />
+          </div>
+          <nav class="flex flex-col lg:flex-row lg:gap-[5rem]">
+            <ul
+              class="header__nav flex flex-col bg-secondary h-full w-full fixed w-40 text-center justify-center items-center gap-[5rem] py-5 top-0 font-semibold duration-700 right-[-100%] lg:static lg:bg-transparent lg:flex-row lg:h-auto lg:w-auto lg:gap-10 font-bold"
+            >
+              <li><a href="">MENU</a></li>
+              <li><a href="">LOCATIONS</a></li>
+              <li><a href="">ABOUT</a></li>
+              <li><a href="">BLOG</a></li>
+              <a href="" class="btn bg-primaryy">ORDER ONLINE</a>
+            </ul>
+          </nav>
+
+          <div class="toggle__menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+
+        <div class="homeBanner__wrapper text-center py-10">
+          <h1 class="font-bold">MICHI RAMEM</h1>
+          <h4 class="font-semibold">
+            TUESDAY - SUNDAY11AM-MIDNIGHT • HAPPY HOUR 9PM-11PM
+          </h4>
+        </div>
+
+        <img class="lg:pl-[10rem]" src="../ramen_img/hero-image-2.png" alt="" />
+      </div>
+    </header>
+
+    <!-- ORDER -->
+
+    <section class="order py-16 bg-[#FDF6EE]">
+      <div class="container">
+        <h2 class="text-accent font-semibold text-center py-5">
+          HOW TO ORDER AT MICHI
+        </h2>
+        <div
+          class="order__wrapper flex flex-row gap-5 justify-center p-10 py-5 lg:gap-20 font-economica text-center items-center"
+        >
+          <div class="card1 grid grid-rows-2">
+            <img src="../ramen_img/ramen-step-1.png" alt="" />
+            <div class="text">
+              <h3 class="text-secondary font-medium">PICK YOUR RAMEN</h3>
+            </div>
+          </div>
+          <div class="icon">
+            <i class="fa-solid fa-chevron-right text-accent"></i>
+          </div>
+
+          <div class="card2 grid grid-rows-2">
+            <img src="../ramen_img/ramen-step-2.png" alt="" />
+            <div class="text">
+              <h3 class="text-secondary font-medium">PICK YOUR BROTH</h3>
+            </div>
+          </div>
+
+          <div class="icon">
+            <i class="fa-solid fa-chevron-right text-accent"></i>
+          </div>
+
+          <div class="card3 grid grid-rows-2">
+            <img src="../ramen_img/ramen-step-3.png" alt="" />
+            <div class="text">
+              <h3 class="text-secondary font-medium">ADD TOPPINGS</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MENU -->
+
+    <section class="menu bg-bannerYellow py-10">
+      <div class="container">
+        <h2 class="text-white font-bold text-center text-4xl py-10">
+          RAMEN MENU
+        </h2>
+
+        <div
+          class="menu__wrapper lg:grid lg:grid-cols-2 place-items-center lg:max-w-[60rem] lg:mx-auto gap-10"
+        >
+          <div class="set1 flex flex-col gap-12">
+            <div class="menu1 grid place_items-center">
+              <div class="card1 flex gap-8">
+                <div class="text">
+                  <h3
+                    class="text-secondary font-bold font-economica text-[35px] pb-3"
+                  >
+                    MICHI
+                  </h3>
+                  <small class="text-accent font-bold text-[18px]">$8.50</small>
+                  <ul class="text-white font-semibold text-[12px] pb-2">
+                    <li>chasu slices</li>
+                    <li>roasted nor</li>
+                    <li>mayu oil</li>
+                    <li>woodear mushroom</li>
+                    <li>green onions</li>
+                  </ul>
+                </div>
+                <div class="image">
+                  <img src="../ramen_img/michi.png" alt="" />
+                </div>
+              </div>
+              <h4 class="text-secondary font-comingsoon text-[20px] font-bold">
+                SHOYU TONKATSU
+              </h4>
+            </div>
+            <div class="menu2 grid place_items-center">
+              <div class="card1 flex gap-8">
+                <div class="text">
+                  <h3
+                    class="text-secondary font-bold font-economica text-[35px] pb-3"
+                  >
+                    VEGGIE
+                  </h3>
+                  <small class="text-accent font-bold text-[18px]">$7.50</small>
+                  <ul class="text-white font-semibold text-[12px] pb-2">
+                    <li>chives</li>
+                    <li>sprouts and cabbage</li>
+                    <li>woodear mushroom</li>
+                    <li>green onions</li>
+                  </ul>
+                </div>
+                <div class="image">
+                  <img src="../ramen_img/vegie.png" alt="" />
+                </div>
+              </div>
+              <h4 class="text-secondary font-comingsoon text-[20px] font-bold">
+                SHOYU SHITAKE
+              </h4>
+            </div>
+            <div class="menu3 grid place_items-center">
+              <div class="card1 flex gap-8">
+                <div class="text">
+                  <h3
+                    class="text-secondary font-bold font-economica text-[35px] pb-3"
+                  >
+                    DIPPING
+                  </h3>
+                  <small class="text-accent font-bold text-[18px]"
+                    >$11.50</small
+                  >
+                  <ul class="text-white font-semibold text-[12px] pb-2">
+                    <li>chasu slices</li>
+                    <li>shredded nori</li>
+                    <li>woodear mushroom</li>
+                    <li>green onions</li>
+                    <li>ground chasu</li>
+                    <li>fresh garlic</li>
+                    <li>fried onions</li>
+                    <li>mayu oil</li>
+                  </ul>
+                </div>
+                <div class="image">
+                  <img src="../ramen_img/dipping.png" alt="" />
+                </div>
+              </div>
+              <h4 class="text-secondary font-comingsoon text-[20px] font-bold">
+                FISH TONKOTSU
+              </h4>
+            </div>
+            <div class="menu4 grid place_items-center">
+              <div class="card1 flex gap-8">
+                <div class="text">
+                  <h3
+                    class="text-secondary font-bold font-economica text-[35px] pb-3"
+                  >
+                    JUNGLE
+                  </h3>
+                  <small class="text-accent font-bold text-[18px]">$9.50</small>
+                  <ul class="text-white font-semibold text-[12px] pb-2">
+                    <li>contains sshellfish</li>
+                    <li>chashu slices</li>
+                    <li>bean sprouts</li>
+                    <li>thai chiles</li>
+                    <li>woodear mushroom</li>
+                    <li>green onions</li>
+                    <li>toasted lemongrass</li>
+                    <li>lime wedge</li>
+                    <li>cilantro</li>
+                  </ul>
+                </div>
+                <div class="image">
+                  <img src="../ramen_img/jungle.png" alt="" />
+                </div>
+              </div>
+              <h4 class="text-secondary font-comingsoon text-[20px] font-bold">
+                LEMONGRASS TONKATSU
+              </h4>
+            </div>
+          </div>
+
+          <div class="set2 flex flex-col gap-12">
+            <div class="menu5 grid place_items-center">
+              <div class="card1 flex gap-8">
+                <div class="text">
+                  <h3
+                    class="text-secondary font-bold font-economica text-[35px] pb-3"
+                  >
+                    SAPPORO
+                  </h3>
+                  <small class="text-accent font-bold text-[18px]">$9.50</small>
+                  <ul class="text-white font-semibold text-[12px] pb-2">
+                    <li>chasu slices</li>
+                    <li>bean sproutes</li>
+                    <li>corn/butter</li>
+                    <li>woodear mushroom</li>
+                    <li>green onions</li>
+                  </ul>
+                </div>
+                <div class="image">
+                  <img src="../ramen_img/Saporo.png" alt="" />
+                </div>
+              </div>
+              <h4 class="text-secondary font-comingsoon text-[20px] font-bold">
+                MISO TONKATSU
+              </h4>
+            </div>
+
+            <div class="menu6 grid place_items-center">
+              <div class="card1 flex gap-8">
+                <div class="text">
+                  <h3
+                    class="text-secondary font-bold font-economica text-[35px] pb-3"
+                  >
+                    MEATLOVER
+                  </h3>
+                  <small class="text-accent font-bold text-[18px]"
+                    >$10.50</small
+                  >
+                  <ul class="text-white font-semibold text-[12px] pb-2">
+                    <li>chasu slices</li>
+                    <li>mayu oil</li>
+                    <li>woodear mushroom</li>
+                    <li>green onions</li>
+                  </ul>
+                </div>
+                <div class="image">
+                  <img src="../ramen_img/Meat Lover.png" alt="" />
+                </div>
+              </div>
+              <h4 class="text-secondary font-comingsoon text-[20px] font-bold">
+                SHOYU TONKATSU
+              </h4>
+            </div>
+            <div class="menu7 grid place_items-center">
+              <div class="card1 flex gap-8">
+                <div class="text">
+                  <h3
+                    class="text-secondary font-bold font-economica text-[35px] pb-3"
+                  >
+                    TEXAS
+                  </h3>
+                  <small class="text-accent font-bold text-[18px]"
+                    >$13.50</small
+                  >
+                  <ul class="text-white font-semibold text-[12px] pb-2">
+                    <li>smoked BBQ pork ribs</li>
+                    <li>vinegar slaw</li>
+                    <li>red onion</li>
+                    <li>mayu oil</li>
+                    <li>texas toast</li>
+                    <li>jalapenos</li>
+                    <li>pickle spear</li>
+                    <li>spicy BBQ sauce</li>
+                  </ul>
+                </div>
+                <div class="image">
+                  <img src="../ramen_img/texas.png" alt="" />
+                </div>
+              </div>
+              <h4 class="text-secondary font-comingsoon text-[20px] font-bold">
+                TOMATO TONKATSU
+              </h4>
+            </div>
+            <div class="menu8 grid place_items-center">
+              <div class="card1 flex gap-8">
+                <div class="text">
+                  <h3
+                    class="text-secondary font-bold font-economica text-[35px] pb-3"
+                  >
+                    SPECIAL
+                  </h3>
+                  <small class="text-accent font-bold text-[18px]"
+                    >$13.50</small
+                  >
+                  <ul class="text-white font-semibold text-[12px] pb-2">
+                    <li>smoked BBQ pork ribs</li>
+                    <li>vinegar slaw</li>
+                    <li>red onion</li>
+                    <li>mayu oil</li>
+                    <li>texas toast</li>
+                    <li>jalapenos</li>
+                    <li>pickle spear</li>
+                    <li>spicy BBQ sauce</li>
+                  </ul>
+                </div>
+                <div class="image">
+                  <img src="../ramen_img/special.png" alt="" />
+                </div>
+              </div>
+              <h4 class="text-secondary font-comingsoon text-[20px] font-bold">
+                TOMATO TONKATSU
+              </h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="button pt-[5rem]">
+          <a
+            href="menu.html"
+            class="btn bg-secondaryy flex max-w-[15rem] mx-auto"
+            >VIEW OUR FULL MENU</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta">
+      <div class="cta_wrapper bg-[#FDF6EE] py-20">
+        <div class="banner text-center">
+          <h2 class="text-accent font-bold">JOIN US FOR HAPPY HOUR</h2>
+          <h4 class="text-primary font-bold">
+            3-6PM / 9-11PM • $1OFF ALL BEER | WEDNESDAY 5-11PM . $2 SAKE CARFFES
+          </h4>
+        </div>
+      </div>
+
+      <div class="images grid grid-cols-3">
+        <div class="image">
+          <img class="w-full h-full" src="../ramen_img/jar.png" alt="" />
+        </div>
+        <div class="image1">
+          <img class="w-full h-full" src="../ramen_img/man.png" alt="" />
+        </div>
+        <div class="image1">
+          <img class="w-full h-full" src="../ramen_img/mochi.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer class="footer bg-secondary py-10">
+      <div class="container">
+        <div
+          class="footer__wrapper flex flex-col-reverse lg:flex-row gap-5 justify-between items-center"
+        >
+          <div class="icons flex gap-5 text-primary text-[2rem] cursor-pointer">
+            <i class="fa-brands fa-yelp hover:text-white"></i>
+            <i class="fa-brands fa-twitter hover:text-white"></i>
+            <i class="fa-brands fa-facebook hover:text-white"></i>
+            <i class="fa-brands fa-square-instagram hover:text-white"></i>
+          </div>
+
+          <div class="contact text-white font-bold">
+            <h4>(512) 386-1908 • 6519 N. Lamr, Autsin TX 78752</h4>
+          </div>
+
+          <div class="button">
+            <a href="" class="btn bg-primaryy">ORDER ONLINE</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./js/toogle.js"></script>
+  </body>
+</html>
